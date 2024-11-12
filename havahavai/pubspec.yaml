@@ -1,0 +1,57 @@
+name: havahavai
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.14
+  dotted_line: ^3.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/burj.jpg 
+     - assets/cloud.svg
+     - assets/883C9411-B93D-4C1C-8558-954E1CF2A482.svg
+     - assets/currency.svg
+     - assets/time.svg
+     - assets/dire3ction.svg
+     - assets/calender.svg
+     - assets/metro.svg
+     - assets/car.svg
+     - assets/bus.svg
+     - assets/bike.svg
+     - assets/electriccar.svg
+     - assets/arrow.svg
+     - assets/map.png
+     - assets/uber.png
+     - assets/careem.png
+     - assets/yango.png
+     - assets/blacklane.png
+     - assets/serach.svg
+     - assets/whatsapp.png
+     - assets/add.svg
+     - assets/indigo.svg
+     - assets/image.jpg
+     - assets/joe.jpeg
+     - assets/me.svg
+     - assets/frined.svg
+
+  fonts:
+    - family: UberMove
+      fonts:
+        - asset: fonts/UberMove-Bold.ttf
+          
+    - family: UberMoveMedium
+      fonts:
+        - asset: fonts/UberMove-Medium.ttf
